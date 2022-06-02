@@ -9,7 +9,7 @@ UniversalSection1:NewSlider("Speed", "Karakterinizin Hızını Ayarlar.", 500, 1
 end)
 
 UniversalSection1:NewSlider("Jump Power", "Karakterinizin Zıplama Gücünü Ayarlar", 500, 50, function(jp)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = jp
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = jp
 end)
 
 UniversalSection1:NewButton("Fling GUI", "Fling sciript Askeriye saldırılarında kullanılır", function()
