@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("", "Synapse")
+local Window = Library.CreateLib("Atc Family Script", "Synapse")
 
 local UniversalTab = Window:NewTab("Main")
 local UniversalSection1 = UniversalTab:NewSection("Character")
